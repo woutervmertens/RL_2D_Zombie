@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="PluginEntry.cpp" />
+    <ClCompile Include="TestBoxPlugin.cpp" />
+    <ClCompile Include="FidgetPlugin.cpp" />
+    <ClCompile Include="BT\BehaviorTree.cpp" />
+    <ClCompile Include="RLPlugin.cpp" />
+    <ClCompile Include="QLearningTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_Includes\IBehaviourPlugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TestBoxPlugin.h" />
+    <ClInclude Include="FidgetPlugin.h" />
+    <ClInclude Include="BT\BehaviorTree.h" />
+    <ClInclude Include="BT\Blackboard.h" />
+    <ClInclude Include="BT\Behaviors.h" />
+    <ClInclude Include="RLPlugin.h" />
+    <ClInclude Include="QLearningTable.h" />
+    <ClInclude Include="Data.h" />
+  </ItemGroup>
+</Project>
